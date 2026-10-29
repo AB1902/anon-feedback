@@ -1,0 +1,24 @@
+# Core
+streamlit>=1.38
+pydantic>=2.7
+python-dotenv>=1.0
+pandas>=2.2
+plotly>=5.22
+
+# LLM providers (both have free tiers)
+google-genai>=1.0        # Gemini (default)
+groq>=0.11               # Groq (automatic fallback)
+tenacity>=8.3            # retry with backoff on rate limits
+
+# Privacy layer
+presidio-analyzer>=2.2
+presidio-anonymizer>=2.2
+spacy>=3.7,<3.9
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# RAG: ChromaDB with its built-in all-MiniLM-L6-v2 sentence-embedding model (ONNX, runs locally).
+# If this fails to install on your machine, delete the line: the app falls back to BM25 search.
+chromadb>=0.5
+
+# Testing
+pytest>=8.0

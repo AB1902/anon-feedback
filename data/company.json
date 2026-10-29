@@ -1,0 +1,2764 @@
+{
+  "company": "Nimbus Technologies Pvt. Ltd. (fictional)",
+  "locations": [
+    "Pune",
+    "Bengaluru",
+    "Mumbai",
+    "Gurugram",
+    "Hyderabad"
+  ],
+  "projects": [
+    "Project Falcon",
+    "Project Orion",
+    "Atlas Migration",
+    "Phoenix Revamp",
+    "Project Indigo",
+    "Zenith Launch",
+    "Project Monsoon",
+    "Helios Rollout"
+  ],
+  "departments": [
+    {
+      "name": "Engineering",
+      "head": "Priya Kapoor",
+      "teams": [
+        {
+          "name": "Payments",
+          "location": "Bengaluru",
+          "headcount": 18,
+          "manager": "Arjun Kapoor"
+        },
+        {
+          "name": "Platform",
+          "location": "Bengaluru",
+          "headcount": 22,
+          "manager": "Meera Mishra"
+        },
+        {
+          "name": "Mobile",
+          "location": "Hyderabad",
+          "headcount": 14,
+          "manager": "Karan Kulkarni"
+        },
+        {
+          "name": "Data",
+          "location": "Pune",
+          "headcount": 12,
+          "manager": "Amit Joshi"
+        },
+        {
+          "name": "QA",
+          "location": "Pune",
+          "headcount": 9,
+          "manager": "Imran Sharma"
+        }
+      ],
+      "headcount": 76
+    },
+    {
+      "name": "Sales",
+      "head": "Abhishek Patel",
+      "teams": [
+        {
+          "name": "Enterprise Sales",
+          "location": "Hyderabad",
+          "headcount": 16,
+          "manager": "Vikram Saxena"
+        },
+        {
+          "name": "Inside Sales",
+          "location": "Mumbai",
+          "headcount": 20,
+          "manager": "Aditya Iyer"
+        },
+        {
+          "name": "Channel Partners",
+          "location": "Hyderabad",
+          "headcount": 7,
+          "manager": "Ritu Sharma"
+        }
+      ],
+      "headcount": 44
+    },
+    {
+      "name": "Operations",
+      "head": "Ritu Agarwal",
+      "teams": [
+        {
+          "name": "Supply Chain",
+          "location": "Pune",
+          "headcount": 15,
+          "manager": "Shreya Verma"
+        },
+        {
+          "name": "Facilities",
+          "location": "Bengaluru",
+          "headcount": 8,
+          "manager": "Sneha Pillai"
+        },
+        {
+          "name": "Logistics",
+          "location": "Pune",
+          "headcount": 13,
+          "manager": "Manish Menon"
+        }
+      ],
+      "headcount": 37
+    },
+    {
+      "name": "Customer Support",
+      "head": "Varun Gupta",
+      "teams": [
+        {
+          "name": "Tier 1 Support",
+          "location": "Mumbai",
+          "headcount": 24,
+          "manager": "Deepak Mehta"
+        },
+        {
+          "name": "Escalations",
+          "location": "Gurugram",
+          "headcount": 6,
+          "manager": "Swati Pillai"
+        }
+      ],
+      "headcount": 31
+    },
+    {
+      "name": "Marketing",
+      "head": "Aditya Singh",
+      "teams": [
+        {
+          "name": "Brand",
+          "location": "Bengaluru",
+          "headcount": 6,
+          "manager": "Varun Reddy"
+        },
+        {
+          "name": "Growth Marketing",
+          "location": "Mumbai",
+          "headcount": 9,
+          "manager": "Amit Iyer"
+        }
+      ],
+      "headcount": 16
+    },
+    {
+      "name": "Finance",
+      "head": "Sneha Agarwal",
+      "teams": [
+        {
+          "name": "Accounts",
+          "location": "Bengaluru",
+          "headcount": 10,
+          "manager": "Ishita Mehta"
+        },
+        {
+          "name": "Procurement",
+          "location": "Gurugram",
+          "headcount": 6,
+          "manager": "Meera Verma"
+        }
+      ],
+      "headcount": 17
+    },
+    {
+      "name": "Product",
+      "head": "Joseph Khan",
+      "teams": [
+        {
+          "name": "Product Management",
+          "location": "Mumbai",
+          "headcount": 11,
+          "manager": "Rohan Nair"
+        },
+        {
+          "name": "Design",
+          "location": "Hyderabad",
+          "headcount": 8,
+          "manager": "Rahul Pillai"
+        }
+      ],
+      "headcount": 20
+    },
+    {
+      "name": "Human Resources",
+      "head": "Farhan Pillai",
+      "teams": [
+        {
+          "name": "HR Business Partners",
+          "location": "Mumbai",
+          "headcount": 6,
+          "manager": "Imran Menon"
+        },
+        {
+          "name": "Talent Acquisition",
+          "location": "Bengaluru",
+          "headcount": 7,
+          "manager": "Vikram Chatterjee"
+        }
+      ],
+      "headcount": 14
+    }
+  ],
+  "employees": [
+    {
+      "name": "Priya Kapoor",
+      "employee_id": "NB-10005",
+      "email": "priya.kapoor@nimbustech.example",
+      "phone": "+91 9362950628",
+      "department": "Engineering",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Pune"
+    },
+    {
+      "name": "Arjun Kapoor",
+      "employee_id": "NB-10007",
+      "email": "arjun.kapoor@nimbustech.example",
+      "phone": "+91 9826600539",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Imran Patel",
+      "employee_id": "NB-10014",
+      "email": "imran.patel@nimbustech.example",
+      "phone": "+91 9134126396",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Priya Patel",
+      "employee_id": "NB-10018",
+      "email": "priya.patel@nimbustech.example",
+      "phone": "+91 9349817734",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Abhishek Agarwal",
+      "employee_id": "NB-10019",
+      "email": "abhishek.agarwal@nimbustech.example",
+      "phone": "+91 9702632297",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Karan Mishra",
+      "employee_id": "NB-10028",
+      "email": "karan.mishra@nimbustech.example",
+      "phone": "+91 9550455977",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Manish Rao",
+      "employee_id": "NB-10033",
+      "email": "manish.rao@nimbustech.example",
+      "phone": "+91 9969119330",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Rahul D'Souza",
+      "employee_id": "NB-10036",
+      "email": "rahul.dsouza@nimbustech.example",
+      "phone": "+91 9849621470",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Lakshmi Joshi",
+      "employee_id": "NB-10041",
+      "email": "lakshmi.joshi@nimbustech.example",
+      "phone": "+91 9266944844",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Ishita D'Souza",
+      "employee_id": "NB-10047",
+      "email": "ishita.dsouza@nimbustech.example",
+      "phone": "+91 9209747451",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Ananya Menon",
+      "employee_id": "NB-10049",
+      "email": "ananya.menon@nimbustech.example",
+      "phone": "+91 9485451171",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Harsh Agarwal",
+      "employee_id": "NB-10054",
+      "email": "harsh.agarwal@nimbustech.example",
+      "phone": "+91 9966647391",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Amit Kapoor",
+      "employee_id": "NB-10062",
+      "email": "amit.kapoor@nimbustech.example",
+      "phone": "+91 9675770529",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Kavya Menon",
+      "employee_id": "NB-10064",
+      "email": "kavya.menon@nimbustech.example",
+      "phone": "+91 9692749116",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Nikhil Bhat",
+      "employee_id": "NB-10070",
+      "email": "nikhil.bhat@nimbustech.example",
+      "phone": "+91 9719927151",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Vikram Iyer",
+      "employee_id": "NB-10074",
+      "email": "vikram.iyer@nimbustech.example",
+      "phone": "+91 9930075810",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Nikhil Patel",
+      "employee_id": "NB-10078",
+      "email": "nikhil.patel@nimbustech.example",
+      "phone": "+91 9208449460",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Sameer Mehta",
+      "employee_id": "NB-10086",
+      "email": "sameer.mehta@nimbustech.example",
+      "phone": "+91 9782560971",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Tanvi Nair",
+      "employee_id": "NB-10092",
+      "email": "tanvi.nair@nimbustech.example",
+      "phone": "+91 9481469012",
+      "department": "Engineering",
+      "team": "Payments",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Meera Mishra",
+      "employee_id": "NB-10094",
+      "email": "meera.mishra@nimbustech.example",
+      "phone": "+91 9754049436",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Siddharth Pillai",
+      "employee_id": "NB-10098",
+      "email": "siddharth.pillai@nimbustech.example",
+      "phone": "+91 9275452091",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Gurpreet Menon",
+      "employee_id": "NB-10103",
+      "email": "gurpreet.menon@nimbustech.example",
+      "phone": "+91 9787194506",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Manish Saxena",
+      "employee_id": "NB-10109",
+      "email": "manish.saxena@nimbustech.example",
+      "phone": "+91 9924970419",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Sneha Singh",
+      "employee_id": "NB-10110",
+      "email": "sneha.singh@nimbustech.example",
+      "phone": "+91 9964411347",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Varun Menon",
+      "employee_id": "NB-10115",
+      "email": "varun.menon@nimbustech.example",
+      "phone": "+91 9171069472",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Ishita Fernandes",
+      "employee_id": "NB-10121",
+      "email": "ishita.fernandes@nimbustech.example",
+      "phone": "+91 9328306011",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Swati Menon",
+      "employee_id": "NB-10129",
+      "email": "swati.menon@nimbustech.example",
+      "phone": "+91 9253407200",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Aditya Kulkarni",
+      "employee_id": "NB-10133",
+      "email": "aditya.kulkarni@nimbustech.example",
+      "phone": "+91 9899925830",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Imran Mehta",
+      "employee_id": "NB-10140",
+      "email": "imran.mehta@nimbustech.example",
+      "phone": "+91 9726563708",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Aisha Khan",
+      "employee_id": "NB-10144",
+      "email": "aisha.khan@nimbustech.example",
+      "phone": "+91 9248532577",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Abhishek Chatterjee",
+      "employee_id": "NB-10146",
+      "email": "abhishek.chatterjee@nimbustech.example",
+      "phone": "+91 9911514914",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Sneha Reddy",
+      "employee_id": "NB-10149",
+      "email": "sneha.reddy@nimbustech.example",
+      "phone": "+91 9773715057",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Siddharth Saxena",
+      "employee_id": "NB-10156",
+      "email": "siddharth.saxena@nimbustech.example",
+      "phone": "+91 9740389325",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Vikram Menon",
+      "employee_id": "NB-10163",
+      "email": "vikram.menon@nimbustech.example",
+      "phone": "+91 9739830322",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Gurpreet Verma",
+      "employee_id": "NB-10168",
+      "email": "gurpreet.verma@nimbustech.example",
+      "phone": "+91 9694021782",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Rahul Saxena",
+      "employee_id": "NB-10170",
+      "email": "rahul.saxena@nimbustech.example",
+      "phone": "+91 9831980933",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Imran D'Souza",
+      "employee_id": "NB-10175",
+      "email": "imran.dsouza@nimbustech.example",
+      "phone": "+91 9925276600",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Ritu Reddy",
+      "employee_id": "NB-10180",
+      "email": "ritu.reddy@nimbustech.example",
+      "phone": "+91 9566825638",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Siddharth Rao",
+      "employee_id": "NB-10181",
+      "email": "siddharth.rao@nimbustech.example",
+      "phone": "+91 9875340444",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Aditya Verma",
+      "employee_id": "NB-10184",
+      "email": "aditya.verma@nimbustech.example",
+      "phone": "+91 9645119047",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Rohan Bhat",
+      "employee_id": "NB-10189",
+      "email": "rohan.bhat@nimbustech.example",
+      "phone": "+91 9786066793",
+      "department": "Engineering",
+      "team": "Platform",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Karan Kulkarni",
+      "employee_id": "NB-10195",
+      "email": "karan.kulkarni@nimbustech.example",
+      "phone": "+91 9918739736",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "manager",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Nandini Sharma",
+      "employee_id": "NB-10201",
+      "email": "nandini.sharma@nimbustech.example",
+      "phone": "+91 9624636385",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Priya Reddy",
+      "employee_id": "NB-10207",
+      "email": "priya.reddy@nimbustech.example",
+      "phone": "+91 9992994062",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Shreya Singh",
+      "employee_id": "NB-10208",
+      "email": "shreya.singh@nimbustech.example",
+      "phone": "+91 9358633898",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Ananya Patel",
+      "employee_id": "NB-10216",
+      "email": "ananya.patel@nimbustech.example",
+      "phone": "+91 9976198296",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Vikram D'Souza",
+      "employee_id": "NB-10225",
+      "email": "vikram.dsouza@nimbustech.example",
+      "phone": "+91 9922308461",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Arjun Kulkarni",
+      "employee_id": "NB-10233",
+      "email": "arjun.kulkarni@nimbustech.example",
+      "phone": "+91 9690347116",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Siddharth Mehta",
+      "employee_id": "NB-10242",
+      "email": "siddharth.mehta@nimbustech.example",
+      "phone": "+91 9751325257",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Lakshmi Gupta",
+      "employee_id": "NB-10251",
+      "email": "lakshmi.gupta@nimbustech.example",
+      "phone": "+91 9910959828",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Shreya Menon",
+      "employee_id": "NB-10257",
+      "email": "shreya.menon@nimbustech.example",
+      "phone": "+91 9570406376",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Nandini Rao",
+      "employee_id": "NB-10259",
+      "email": "nandini.rao@nimbustech.example",
+      "phone": "+91 9366186631",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Manish Patel",
+      "employee_id": "NB-10265",
+      "email": "manish.patel@nimbustech.example",
+      "phone": "+91 9122585366",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Manish Fernandes",
+      "employee_id": "NB-10269",
+      "email": "manish.fernandes@nimbustech.example",
+      "phone": "+91 9107721109",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Vikram Mishra",
+      "employee_id": "NB-10270",
+      "email": "vikram.mishra@nimbustech.example",
+      "phone": "+91 9345824373",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Amit Joshi",
+      "employee_id": "NB-10272",
+      "email": "amit.joshi@nimbustech.example",
+      "phone": "+91 9652070932",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "manager",
+      "location": "Pune"
+    },
+    {
+      "name": "Divya Mehta",
+      "employee_id": "NB-10280",
+      "email": "divya.mehta@nimbustech.example",
+      "phone": "+91 9330035022",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Imran Kulkarni",
+      "employee_id": "NB-10288",
+      "email": "imran.kulkarni@nimbustech.example",
+      "phone": "+91 9360916298",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Joseph Desai",
+      "employee_id": "NB-10292",
+      "email": "joseph.desai@nimbustech.example",
+      "phone": "+91 9201281557",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Rohan Saxena",
+      "employee_id": "NB-10299",
+      "email": "rohan.saxena@nimbustech.example",
+      "phone": "+91 9480424119",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Lakshmi Desai",
+      "employee_id": "NB-10307",
+      "email": "lakshmi.desai@nimbustech.example",
+      "phone": "+91 9882839238",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sneha Saxena",
+      "employee_id": "NB-10309",
+      "email": "sneha.saxena@nimbustech.example",
+      "phone": "+91 9165082363",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Aisha Kapoor",
+      "employee_id": "NB-10315",
+      "email": "aisha.kapoor@nimbustech.example",
+      "phone": "+91 9959629660",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Rohan Singh",
+      "employee_id": "NB-10319",
+      "email": "rohan.singh@nimbustech.example",
+      "phone": "+91 9304235259",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Imran Rao",
+      "employee_id": "NB-10322",
+      "email": "imran.rao@nimbustech.example",
+      "phone": "+91 9552991960",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Pooja Mehta",
+      "employee_id": "NB-10330",
+      "email": "pooja.mehta@nimbustech.example",
+      "phone": "+91 9368227631",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Vikram Rao",
+      "employee_id": "NB-10339",
+      "email": "vikram.rao@nimbustech.example",
+      "phone": "+91 9205128697",
+      "department": "Engineering",
+      "team": "Data",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Imran Sharma",
+      "employee_id": "NB-10341",
+      "email": "imran.sharma@nimbustech.example",
+      "phone": "+91 9909134796",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "manager",
+      "location": "Pune"
+    },
+    {
+      "name": "Divya Nair",
+      "employee_id": "NB-10348",
+      "email": "divya.nair@nimbustech.example",
+      "phone": "+91 9621453189",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Joseph Gupta",
+      "employee_id": "NB-10355",
+      "email": "joseph.gupta@nimbustech.example",
+      "phone": "+91 9162959284",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Siddharth Menon",
+      "employee_id": "NB-10356",
+      "email": "siddharth.menon@nimbustech.example",
+      "phone": "+91 9519212169",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Aditya Rao",
+      "employee_id": "NB-10361",
+      "email": "aditya.rao@nimbustech.example",
+      "phone": "+91 9554200826",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Swati Kulkarni",
+      "employee_id": "NB-10365",
+      "email": "swati.kulkarni@nimbustech.example",
+      "phone": "+91 9418587604",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Ishita Iyer",
+      "employee_id": "NB-10374",
+      "email": "ishita.iyer@nimbustech.example",
+      "phone": "+91 9165452690",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Varun Iyer",
+      "employee_id": "NB-10375",
+      "email": "varun.iyer@nimbustech.example",
+      "phone": "+91 9727255918",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Joseph Verma",
+      "employee_id": "NB-10384",
+      "email": "joseph.verma@nimbustech.example",
+      "phone": "+91 9269042105",
+      "department": "Engineering",
+      "team": "QA",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Abhishek Patel",
+      "employee_id": "NB-10387",
+      "email": "abhishek.patel@nimbustech.example",
+      "phone": "+91 9173574218",
+      "department": "Sales",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Pune"
+    },
+    {
+      "name": "Vikram Saxena",
+      "employee_id": "NB-10391",
+      "email": "vikram.saxena@nimbustech.example",
+      "phone": "+91 9533550699",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "manager",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Kavya Fernandes",
+      "employee_id": "NB-10395",
+      "email": "kavya.fernandes@nimbustech.example",
+      "phone": "+91 9721609600",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Amit Agarwal",
+      "employee_id": "NB-10397",
+      "email": "amit.agarwal@nimbustech.example",
+      "phone": "+91 9550139320",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Nandini Joshi",
+      "employee_id": "NB-10402",
+      "email": "nandini.joshi@nimbustech.example",
+      "phone": "+91 9319321646",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Varun Singh",
+      "employee_id": "NB-10407",
+      "email": "varun.singh@nimbustech.example",
+      "phone": "+91 9524971817",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Arjun Saxena",
+      "employee_id": "NB-10412",
+      "email": "arjun.saxena@nimbustech.example",
+      "phone": "+91 9590941149",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Varun D'Souza",
+      "employee_id": "NB-10414",
+      "email": "varun.dsouza@nimbustech.example",
+      "phone": "+91 9110002396",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Gurpreet Agarwal",
+      "employee_id": "NB-10416",
+      "email": "gurpreet.agarwal@nimbustech.example",
+      "phone": "+91 9178663096",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Imran Gupta",
+      "employee_id": "NB-10425",
+      "email": "imran.gupta@nimbustech.example",
+      "phone": "+91 9384756779",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Arjun Khan",
+      "employee_id": "NB-10427",
+      "email": "arjun.khan@nimbustech.example",
+      "phone": "+91 9362298393",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Tanvi Banerjee",
+      "employee_id": "NB-10430",
+      "email": "tanvi.banerjee@nimbustech.example",
+      "phone": "+91 9570497096",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Imran Mishra",
+      "employee_id": "NB-10435",
+      "email": "imran.mishra@nimbustech.example",
+      "phone": "+91 9756783995",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Shreya Saxena",
+      "employee_id": "NB-10437",
+      "email": "shreya.saxena@nimbustech.example",
+      "phone": "+91 9244193987",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Aditya Reddy",
+      "employee_id": "NB-10439",
+      "email": "aditya.reddy@nimbustech.example",
+      "phone": "+91 9897163846",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Neha Mehta",
+      "employee_id": "NB-10444",
+      "email": "neha.mehta@nimbustech.example",
+      "phone": "+91 9749431082",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Ishita Mishra",
+      "employee_id": "NB-10450",
+      "email": "ishita.mishra@nimbustech.example",
+      "phone": "+91 9318610946",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Aditya Iyer",
+      "employee_id": "NB-10452",
+      "email": "aditya.iyer@nimbustech.example",
+      "phone": "+91 9781057736",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "manager",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Lakshmi Mehta",
+      "employee_id": "NB-10453",
+      "email": "lakshmi.mehta@nimbustech.example",
+      "phone": "+91 9103807155",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Ritu D'Souza",
+      "employee_id": "NB-10456",
+      "email": "ritu.dsouza@nimbustech.example",
+      "phone": "+91 9784095277",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Aditya Nair",
+      "employee_id": "NB-10464",
+      "email": "aditya.nair@nimbustech.example",
+      "phone": "+91 9692362342",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Lakshmi Pillai",
+      "employee_id": "NB-10465",
+      "email": "lakshmi.pillai@nimbustech.example",
+      "phone": "+91 9220123666",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Neha Pillai",
+      "employee_id": "NB-10466",
+      "email": "neha.pillai@nimbustech.example",
+      "phone": "+91 9996139578",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Tanvi Fernandes",
+      "employee_id": "NB-10475",
+      "email": "tanvi.fernandes@nimbustech.example",
+      "phone": "+91 9259014493",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Lakshmi Kulkarni",
+      "employee_id": "NB-10476",
+      "email": "lakshmi.kulkarni@nimbustech.example",
+      "phone": "+91 9430989881",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Tanvi Iyer",
+      "employee_id": "NB-10482",
+      "email": "tanvi.iyer@nimbustech.example",
+      "phone": "+91 9325567963",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya Saxena",
+      "employee_id": "NB-10484",
+      "email": "divya.saxena@nimbustech.example",
+      "phone": "+91 9479759538",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Deepak Agarwal",
+      "employee_id": "NB-10487",
+      "email": "deepak.agarwal@nimbustech.example",
+      "phone": "+91 9354194771",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Siddharth Nair",
+      "employee_id": "NB-10494",
+      "email": "siddharth.nair@nimbustech.example",
+      "phone": "+91 9126614158",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Pooja Kapoor",
+      "employee_id": "NB-10500",
+      "email": "pooja.kapoor@nimbustech.example",
+      "phone": "+91 9940081098",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Deepak Saxena",
+      "employee_id": "NB-10504",
+      "email": "deepak.saxena@nimbustech.example",
+      "phone": "+91 9386480450",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Siddharth Mishra",
+      "employee_id": "NB-10506",
+      "email": "siddharth.mishra@nimbustech.example",
+      "phone": "+91 9510751046",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Amit Chatterjee",
+      "employee_id": "NB-10510",
+      "email": "amit.chatterjee@nimbustech.example",
+      "phone": "+91 9314289692",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Gurpreet Khan",
+      "employee_id": "NB-10515",
+      "email": "gurpreet.khan@nimbustech.example",
+      "phone": "+91 9981044229",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Manish Singh",
+      "employee_id": "NB-10516",
+      "email": "manish.singh@nimbustech.example",
+      "phone": "+91 9808705238",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Karan Menon",
+      "employee_id": "NB-10522",
+      "email": "karan.menon@nimbustech.example",
+      "phone": "+91 9399147754",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Meera Khan",
+      "employee_id": "NB-10531",
+      "email": "meera.khan@nimbustech.example",
+      "phone": "+91 9529151399",
+      "department": "Sales",
+      "team": "Inside Sales",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Ritu Sharma",
+      "employee_id": "NB-10533",
+      "email": "ritu.sharma@nimbustech.example",
+      "phone": "+91 9380477683",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "manager",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Pooja Fernandes",
+      "employee_id": "NB-10538",
+      "email": "pooja.fernandes@nimbustech.example",
+      "phone": "+91 9141078352",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Rohan Agarwal",
+      "employee_id": "NB-10545",
+      "email": "rohan.agarwal@nimbustech.example",
+      "phone": "+91 9471178705",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Varun Desai",
+      "employee_id": "NB-10554",
+      "email": "varun.desai@nimbustech.example",
+      "phone": "+91 9224173718",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Sameer Fernandes",
+      "employee_id": "NB-10558",
+      "email": "sameer.fernandes@nimbustech.example",
+      "phone": "+91 9373506211",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Amit Mishra",
+      "employee_id": "NB-10565",
+      "email": "amit.mishra@nimbustech.example",
+      "phone": "+91 9101815992",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Nandini Pillai",
+      "employee_id": "NB-10569",
+      "email": "nandini.pillai@nimbustech.example",
+      "phone": "+91 9491079829",
+      "department": "Sales",
+      "team": "Channel Partners",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Ritu Agarwal",
+      "employee_id": "NB-10575",
+      "email": "ritu.agarwal@nimbustech.example",
+      "phone": "+91 9812306873",
+      "department": "Operations",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Shreya Verma",
+      "employee_id": "NB-10580",
+      "email": "shreya.verma@nimbustech.example",
+      "phone": "+91 9816070802",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "manager",
+      "location": "Pune"
+    },
+    {
+      "name": "Deepak Joshi",
+      "employee_id": "NB-10587",
+      "email": "deepak.joshi@nimbustech.example",
+      "phone": "+91 9848621833",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Nikhil Pillai",
+      "employee_id": "NB-10590",
+      "email": "nikhil.pillai@nimbustech.example",
+      "phone": "+91 9305986733",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sameer Saxena",
+      "employee_id": "NB-10593",
+      "email": "sameer.saxena@nimbustech.example",
+      "phone": "+91 9760904107",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Rahul Banerjee",
+      "employee_id": "NB-10598",
+      "email": "rahul.banerjee@nimbustech.example",
+      "phone": "+91 9325681936",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Lakshmi Fernandes",
+      "employee_id": "NB-10604",
+      "email": "lakshmi.fernandes@nimbustech.example",
+      "phone": "+91 9599277266",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Farhan Rao",
+      "employee_id": "NB-10608",
+      "email": "farhan.rao@nimbustech.example",
+      "phone": "+91 9648868899",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Joseph Kapoor",
+      "employee_id": "NB-10611",
+      "email": "joseph.kapoor@nimbustech.example",
+      "phone": "+91 9807435606",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Ananya Banerjee",
+      "employee_id": "NB-10620",
+      "email": "ananya.banerjee@nimbustech.example",
+      "phone": "+91 9812807629",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Ritu Patel",
+      "employee_id": "NB-10624",
+      "email": "ritu.patel@nimbustech.example",
+      "phone": "+91 9822408848",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Priya Iyer",
+      "employee_id": "NB-10628",
+      "email": "priya.iyer@nimbustech.example",
+      "phone": "+91 9610173760",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Deepak Bhat",
+      "employee_id": "NB-10632",
+      "email": "deepak.bhat@nimbustech.example",
+      "phone": "+91 9871318048",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sameer Chatterjee",
+      "employee_id": "NB-10639",
+      "email": "sameer.chatterjee@nimbustech.example",
+      "phone": "+91 9361976301",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Neha Bhat",
+      "employee_id": "NB-10640",
+      "email": "neha.bhat@nimbustech.example",
+      "phone": "+91 9906341966",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Rohan D'Souza",
+      "employee_id": "NB-10647",
+      "email": "rohan.dsouza@nimbustech.example",
+      "phone": "+91 9334978881",
+      "department": "Operations",
+      "team": "Supply Chain",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sneha Pillai",
+      "employee_id": "NB-10651",
+      "email": "sneha.pillai@nimbustech.example",
+      "phone": "+91 9230307805",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Gurpreet Kulkarni",
+      "employee_id": "NB-10659",
+      "email": "gurpreet.kulkarni@nimbustech.example",
+      "phone": "+91 9816806128",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Farhan Agarwal",
+      "employee_id": "NB-10668",
+      "email": "farhan.agarwal@nimbustech.example",
+      "phone": "+91 9558209399",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Farhan Nair",
+      "employee_id": "NB-10676",
+      "email": "farhan.nair@nimbustech.example",
+      "phone": "+91 9583258726",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Aditya D'Souza",
+      "employee_id": "NB-10680",
+      "email": "aditya.dsouza@nimbustech.example",
+      "phone": "+91 9784683755",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Meera D'Souza",
+      "employee_id": "NB-10689",
+      "email": "meera.dsouza@nimbustech.example",
+      "phone": "+91 9620332086",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Farhan Patel",
+      "employee_id": "NB-10694",
+      "email": "farhan.patel@nimbustech.example",
+      "phone": "+91 9351785565",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Meera Joshi",
+      "employee_id": "NB-10700",
+      "email": "meera.joshi@nimbustech.example",
+      "phone": "+91 9679984033",
+      "department": "Operations",
+      "team": "Facilities",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Manish Menon",
+      "employee_id": "NB-10703",
+      "email": "manish.menon@nimbustech.example",
+      "phone": "+91 9858511779",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "manager",
+      "location": "Pune"
+    },
+    {
+      "name": "Ishita Patel",
+      "employee_id": "NB-10710",
+      "email": "ishita.patel@nimbustech.example",
+      "phone": "+91 9537656494",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Ritu Pillai",
+      "employee_id": "NB-10718",
+      "email": "ritu.pillai@nimbustech.example",
+      "phone": "+91 9546434187",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sneha Gupta",
+      "employee_id": "NB-10725",
+      "email": "sneha.gupta@nimbustech.example",
+      "phone": "+91 9518197538",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Priya D'Souza",
+      "employee_id": "NB-10732",
+      "email": "priya.dsouza@nimbustech.example",
+      "phone": "+91 9612153089",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Rahul Khan",
+      "employee_id": "NB-10737",
+      "email": "rahul.khan@nimbustech.example",
+      "phone": "+91 9909037759",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Sameer Desai",
+      "employee_id": "NB-10746",
+      "email": "sameer.desai@nimbustech.example",
+      "phone": "+91 9902638839",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Imran Agarwal",
+      "employee_id": "NB-10750",
+      "email": "imran.agarwal@nimbustech.example",
+      "phone": "+91 9624232414",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Manish Mehta",
+      "employee_id": "NB-10757",
+      "email": "manish.mehta@nimbustech.example",
+      "phone": "+91 9621454127",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Priya Menon",
+      "employee_id": "NB-10763",
+      "email": "priya.menon@nimbustech.example",
+      "phone": "+91 9818197581",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Arjun Agarwal",
+      "employee_id": "NB-10772",
+      "email": "arjun.agarwal@nimbustech.example",
+      "phone": "+91 9128955006",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Aisha Fernandes",
+      "employee_id": "NB-10773",
+      "email": "aisha.fernandes@nimbustech.example",
+      "phone": "+91 9190137896",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Gurpreet Nair",
+      "employee_id": "NB-10774",
+      "email": "gurpreet.nair@nimbustech.example",
+      "phone": "+91 9379340713",
+      "department": "Operations",
+      "team": "Logistics",
+      "level_band": "ic",
+      "location": "Pune"
+    },
+    {
+      "name": "Varun Gupta",
+      "employee_id": "NB-10782",
+      "email": "varun.gupta@nimbustech.example",
+      "phone": "+91 9450948014",
+      "department": "Customer Support",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Deepak Mehta",
+      "employee_id": "NB-10784",
+      "email": "deepak.mehta@nimbustech.example",
+      "phone": "+91 9604988121",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "manager",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Imran Iyer",
+      "employee_id": "NB-10790",
+      "email": "imran.iyer@nimbustech.example",
+      "phone": "+91 9340756713",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Amit D'Souza",
+      "employee_id": "NB-10791",
+      "email": "amit.dsouza@nimbustech.example",
+      "phone": "+91 9365518424",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Karan Sharma",
+      "employee_id": "NB-10794",
+      "email": "karan.sharma@nimbustech.example",
+      "phone": "+91 9356135680",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Arjun Chatterjee",
+      "employee_id": "NB-10796",
+      "email": "arjun.chatterjee@nimbustech.example",
+      "phone": "+91 9705557720",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Ishita Rao",
+      "employee_id": "NB-10801",
+      "email": "ishita.rao@nimbustech.example",
+      "phone": "+91 9923450567",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Kavya D'Souza",
+      "employee_id": "NB-10804",
+      "email": "kavya.dsouza@nimbustech.example",
+      "phone": "+91 9433975497",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Rohan Fernandes",
+      "employee_id": "NB-10805",
+      "email": "rohan.fernandes@nimbustech.example",
+      "phone": "+91 9434961542",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Sameer Menon",
+      "employee_id": "NB-10809",
+      "email": "sameer.menon@nimbustech.example",
+      "phone": "+91 9181600593",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya Reddy",
+      "employee_id": "NB-10814",
+      "email": "divya.reddy@nimbustech.example",
+      "phone": "+91 9834717549",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Amit Khan",
+      "employee_id": "NB-10823",
+      "email": "amit.khan@nimbustech.example",
+      "phone": "+91 9559967386",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Tanvi Patel",
+      "employee_id": "NB-10832",
+      "email": "tanvi.patel@nimbustech.example",
+      "phone": "+91 9795294275",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Deepak Chatterjee",
+      "employee_id": "NB-10834",
+      "email": "deepak.chatterjee@nimbustech.example",
+      "phone": "+91 9565492204",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Tanvi Bhat",
+      "employee_id": "NB-10842",
+      "email": "tanvi.bhat@nimbustech.example",
+      "phone": "+91 9859466878",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Neha Desai",
+      "employee_id": "NB-10845",
+      "email": "neha.desai@nimbustech.example",
+      "phone": "+91 9887906704",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Nandini Bhat",
+      "employee_id": "NB-10850",
+      "email": "nandini.bhat@nimbustech.example",
+      "phone": "+91 9761330848",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Joseph Rao",
+      "employee_id": "NB-10857",
+      "email": "joseph.rao@nimbustech.example",
+      "phone": "+91 9986625773",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya Patel",
+      "employee_id": "NB-10862",
+      "email": "divya.patel@nimbustech.example",
+      "phone": "+91 9584044963",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya D'Souza",
+      "employee_id": "NB-10870",
+      "email": "divya.dsouza@nimbustech.example",
+      "phone": "+91 9711871397",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Sameer Joshi",
+      "employee_id": "NB-10871",
+      "email": "sameer.joshi@nimbustech.example",
+      "phone": "+91 9630757561",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Varun Nair",
+      "employee_id": "NB-10879",
+      "email": "varun.nair@nimbustech.example",
+      "phone": "+91 9327761953",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Harsh Mehta",
+      "employee_id": "NB-10885",
+      "email": "harsh.mehta@nimbustech.example",
+      "phone": "+91 9400281010",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Meera Pillai",
+      "employee_id": "NB-10886",
+      "email": "meera.pillai@nimbustech.example",
+      "phone": "+91 9654724287",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Karan Patel",
+      "employee_id": "NB-10890",
+      "email": "karan.patel@nimbustech.example",
+      "phone": "+91 9873174285",
+      "department": "Customer Support",
+      "team": "Tier 1 Support",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Swati Pillai",
+      "employee_id": "NB-10894",
+      "email": "swati.pillai@nimbustech.example",
+      "phone": "+91 9841536135",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "manager",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Joseph Bhat",
+      "employee_id": "NB-10902",
+      "email": "joseph.bhat@nimbustech.example",
+      "phone": "+91 9581223755",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Nikhil Singh",
+      "employee_id": "NB-10909",
+      "email": "nikhil.singh@nimbustech.example",
+      "phone": "+91 9842800803",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Divya Banerjee",
+      "employee_id": "NB-10915",
+      "email": "divya.banerjee@nimbustech.example",
+      "phone": "+91 9608159580",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Nandini Khan",
+      "employee_id": "NB-10922",
+      "email": "nandini.khan@nimbustech.example",
+      "phone": "+91 9900942073",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Ritu Khan",
+      "employee_id": "NB-10930",
+      "email": "ritu.khan@nimbustech.example",
+      "phone": "+91 9390894296",
+      "department": "Customer Support",
+      "team": "Escalations",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Aditya Singh",
+      "employee_id": "NB-10932",
+      "email": "aditya.singh@nimbustech.example",
+      "phone": "+91 9874473159",
+      "department": "Marketing",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Varun Reddy",
+      "employee_id": "NB-10941",
+      "email": "varun.reddy@nimbustech.example",
+      "phone": "+91 9918394863",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Pooja Gupta",
+      "employee_id": "NB-10945",
+      "email": "pooja.gupta@nimbustech.example",
+      "phone": "+91 9893070706",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Joseph Mehta",
+      "employee_id": "NB-10954",
+      "email": "joseph.mehta@nimbustech.example",
+      "phone": "+91 9740799178",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Nikhil Reddy",
+      "employee_id": "NB-10958",
+      "email": "nikhil.reddy@nimbustech.example",
+      "phone": "+91 9418092217",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Manish Khan",
+      "employee_id": "NB-10961",
+      "email": "manish.khan@nimbustech.example",
+      "phone": "+91 9424557359",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Rahul Mishra",
+      "employee_id": "NB-10970",
+      "email": "rahul.mishra@nimbustech.example",
+      "phone": "+91 9235917419",
+      "department": "Marketing",
+      "team": "Brand",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Amit Iyer",
+      "employee_id": "NB-10979",
+      "email": "amit.iyer@nimbustech.example",
+      "phone": "+91 9413679331",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "manager",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Arjun Bhat",
+      "employee_id": "NB-10987",
+      "email": "arjun.bhat@nimbustech.example",
+      "phone": "+91 9210152642",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Rahul Fernandes",
+      "employee_id": "NB-10992",
+      "email": "rahul.fernandes@nimbustech.example",
+      "phone": "+91 9604011128",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Ritu Nair",
+      "employee_id": "NB-10993",
+      "email": "ritu.nair@nimbustech.example",
+      "phone": "+91 9371096600",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Joseph Reddy",
+      "employee_id": "NB-10995",
+      "email": "joseph.reddy@nimbustech.example",
+      "phone": "+91 9530256336",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Swati Patel",
+      "employee_id": "NB-10996",
+      "email": "swati.patel@nimbustech.example",
+      "phone": "+91 9262915636",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Neha Fernandes",
+      "employee_id": "NB-11001",
+      "email": "neha.fernandes@nimbustech.example",
+      "phone": "+91 9191462297",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Manish D'Souza",
+      "employee_id": "NB-11010",
+      "email": "manish.dsouza@nimbustech.example",
+      "phone": "+91 9508427798",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Shreya Fernandes",
+      "employee_id": "NB-11017",
+      "email": "shreya.fernandes@nimbustech.example",
+      "phone": "+91 9427899537",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Sneha Agarwal",
+      "employee_id": "NB-11019",
+      "email": "sneha.agarwal@nimbustech.example",
+      "phone": "+91 9918982730",
+      "department": "Finance",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Ishita Mehta",
+      "employee_id": "NB-11021",
+      "email": "ishita.mehta@nimbustech.example",
+      "phone": "+91 9268638768",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Vikram Nair",
+      "employee_id": "NB-11022",
+      "email": "vikram.nair@nimbustech.example",
+      "phone": "+91 9538642403",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Farhan Mishra",
+      "employee_id": "NB-11030",
+      "email": "farhan.mishra@nimbustech.example",
+      "phone": "+91 9412737284",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Amit Singh",
+      "employee_id": "NB-11035",
+      "email": "amit.singh@nimbustech.example",
+      "phone": "+91 9859088046",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Nikhil Mishra",
+      "employee_id": "NB-11043",
+      "email": "nikhil.mishra@nimbustech.example",
+      "phone": "+91 9176428684",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Karan Desai",
+      "employee_id": "NB-11045",
+      "email": "karan.desai@nimbustech.example",
+      "phone": "+91 9684719405",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Manish Bhat",
+      "employee_id": "NB-11048",
+      "email": "manish.bhat@nimbustech.example",
+      "phone": "+91 9385220694",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Neha Patel",
+      "employee_id": "NB-11049",
+      "email": "neha.patel@nimbustech.example",
+      "phone": "+91 9278158234",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Shreya Agarwal",
+      "employee_id": "NB-11054",
+      "email": "shreya.agarwal@nimbustech.example",
+      "phone": "+91 9571537429",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Kavya Rao",
+      "employee_id": "NB-11059",
+      "email": "kavya.rao@nimbustech.example",
+      "phone": "+91 9851333320",
+      "department": "Finance",
+      "team": "Accounts",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Meera Verma",
+      "employee_id": "NB-11068",
+      "email": "meera.verma@nimbustech.example",
+      "phone": "+91 9630208579",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "manager",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Amit Desai",
+      "employee_id": "NB-11074",
+      "email": "amit.desai@nimbustech.example",
+      "phone": "+91 9748232591",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Aditya Sharma",
+      "employee_id": "NB-11076",
+      "email": "aditya.sharma@nimbustech.example",
+      "phone": "+91 9345805719",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Meera Fernandes",
+      "employee_id": "NB-11077",
+      "email": "meera.fernandes@nimbustech.example",
+      "phone": "+91 9919382051",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Pooja Chatterjee",
+      "employee_id": "NB-11086",
+      "email": "pooja.chatterjee@nimbustech.example",
+      "phone": "+91 9799552991",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Farhan Mehta",
+      "employee_id": "NB-11089",
+      "email": "farhan.mehta@nimbustech.example",
+      "phone": "+91 9728492896",
+      "department": "Finance",
+      "team": "Procurement",
+      "level_band": "ic",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Joseph Khan",
+      "employee_id": "NB-11096",
+      "email": "joseph.khan@nimbustech.example",
+      "phone": "+91 9457887167",
+      "department": "Product",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Gurugram"
+    },
+    {
+      "name": "Rohan Nair",
+      "employee_id": "NB-11102",
+      "email": "rohan.nair@nimbustech.example",
+      "phone": "+91 9542000551",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "manager",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Swati Banerjee",
+      "employee_id": "NB-11109",
+      "email": "swati.banerjee@nimbustech.example",
+      "phone": "+91 9973559879",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Amit Rao",
+      "employee_id": "NB-11111",
+      "email": "amit.rao@nimbustech.example",
+      "phone": "+91 9437710224",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Aditya Joshi",
+      "employee_id": "NB-11113",
+      "email": "aditya.joshi@nimbustech.example",
+      "phone": "+91 9929517022",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Aisha Verma",
+      "employee_id": "NB-11114",
+      "email": "aisha.verma@nimbustech.example",
+      "phone": "+91 9806157458",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Deepak Iyer",
+      "employee_id": "NB-11118",
+      "email": "deepak.iyer@nimbustech.example",
+      "phone": "+91 9656670062",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Tanvi Agarwal",
+      "employee_id": "NB-11126",
+      "email": "tanvi.agarwal@nimbustech.example",
+      "phone": "+91 9771527524",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Farhan D'Souza",
+      "employee_id": "NB-11127",
+      "email": "farhan.dsouza@nimbustech.example",
+      "phone": "+91 9318568997",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Arjun Banerjee",
+      "employee_id": "NB-11135",
+      "email": "arjun.banerjee@nimbustech.example",
+      "phone": "+91 9849740261",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Swati Reddy",
+      "employee_id": "NB-11136",
+      "email": "swati.reddy@nimbustech.example",
+      "phone": "+91 9776481264",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya Mishra",
+      "employee_id": "NB-11139",
+      "email": "divya.mishra@nimbustech.example",
+      "phone": "+91 9433665422",
+      "department": "Product",
+      "team": "Product Management",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Rahul Pillai",
+      "employee_id": "NB-11146",
+      "email": "rahul.pillai@nimbustech.example",
+      "phone": "+91 9200082623",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "manager",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Manish Reddy",
+      "employee_id": "NB-11154",
+      "email": "manish.reddy@nimbustech.example",
+      "phone": "+91 9226128312",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Neha Chatterjee",
+      "employee_id": "NB-11159",
+      "email": "neha.chatterjee@nimbustech.example",
+      "phone": "+91 9646397165",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Meera Desai",
+      "employee_id": "NB-11167",
+      "email": "meera.desai@nimbustech.example",
+      "phone": "+91 9607042130",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Divya Rao",
+      "employee_id": "NB-11176",
+      "email": "divya.rao@nimbustech.example",
+      "phone": "+91 9255308128",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Sameer Gupta",
+      "employee_id": "NB-11185",
+      "email": "sameer.gupta@nimbustech.example",
+      "phone": "+91 9901325519",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Arjun Patel",
+      "employee_id": "NB-11190",
+      "email": "arjun.patel@nimbustech.example",
+      "phone": "+91 9929653607",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Abhishek Mehta",
+      "employee_id": "NB-11191",
+      "email": "abhishek.mehta@nimbustech.example",
+      "phone": "+91 9403696046",
+      "department": "Product",
+      "team": "Design",
+      "level_band": "ic",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Farhan Pillai",
+      "employee_id": "NB-11199",
+      "email": "farhan.pillai@nimbustech.example",
+      "phone": "+91 9470574014",
+      "department": "Human Resources",
+      "team": null,
+      "level_band": "senior_leadership",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Imran Menon",
+      "employee_id": "NB-11207",
+      "email": "imran.menon@nimbustech.example",
+      "phone": "+91 9445505799",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "manager",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Divya Fernandes",
+      "employee_id": "NB-11214",
+      "email": "divya.fernandes@nimbustech.example",
+      "phone": "+91 9350785761",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Varun Kapoor",
+      "employee_id": "NB-11222",
+      "email": "varun.kapoor@nimbustech.example",
+      "phone": "+91 9857232668",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Amit Kulkarni",
+      "employee_id": "NB-11231",
+      "email": "amit.kulkarni@nimbustech.example",
+      "phone": "+91 9733701411",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Farhan Reddy",
+      "employee_id": "NB-11240",
+      "email": "farhan.reddy@nimbustech.example",
+      "phone": "+91 9590622789",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Rahul Kapoor",
+      "employee_id": "NB-11243",
+      "email": "rahul.kapoor@nimbustech.example",
+      "phone": "+91 9540211187",
+      "department": "Human Resources",
+      "team": "HR Business Partners",
+      "level_band": "ic",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Vikram Chatterjee",
+      "employee_id": "NB-11248",
+      "email": "vikram.chatterjee@nimbustech.example",
+      "phone": "+91 9463527356",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "manager",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Aisha Bhat",
+      "employee_id": "NB-11250",
+      "email": "aisha.bhat@nimbustech.example",
+      "phone": "+91 9452794611",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Varun Bhat",
+      "employee_id": "NB-11258",
+      "email": "varun.bhat@nimbustech.example",
+      "phone": "+91 9680911523",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Vikram Singh",
+      "employee_id": "NB-11263",
+      "email": "vikram.singh@nimbustech.example",
+      "phone": "+91 9344261532",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Ananya Desai",
+      "employee_id": "NB-11265",
+      "email": "ananya.desai@nimbustech.example",
+      "phone": "+91 9916440738",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Rohan Rao",
+      "employee_id": "NB-11268",
+      "email": "rohan.rao@nimbustech.example",
+      "phone": "+91 9845178074",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    },
+    {
+      "name": "Shreya Sharma",
+      "employee_id": "NB-11269",
+      "email": "shreya.sharma@nimbustech.example",
+      "phone": "+91 9448294647",
+      "department": "Human Resources",
+      "team": "Talent Acquisition",
+      "level_band": "ic",
+      "location": "Bengaluru"
+    }
+  ],
+  "totals": {
+    "employees": 255,
+    "by_band": {
+      "ic": 226,
+      "manager": 21,
+      "senior_leadership": 8
+    }
+  }
+}
