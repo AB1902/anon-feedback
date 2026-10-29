@@ -60,6 +60,14 @@ def main() -> None:
             l = c["llm_comparison"]
             rows += [("LLM vs LR", "Category accuracy: LLM / LR", f"{pct(l['llm_accuracy'])} / {pct(l['lr_accuracy'])}", f"{l['notes']} test notes"),
                      ("LLM vs LR", "Escalation recall: LLM / LR / combined", f"{pct(l['llm_escalation_recall'])} / {pct(l['lr_escalation_recall'])} / {pct(l['combined_escalation_recall'])}", f"{l['notes']} test notes")]
+    h = load("hard_test_results.json")
+    if h:
+        n = f"{h['notes']} hand-written hard notes"
+        rows.append(("Hard test", "Category accuracy: baseline / LR" + (" / LLM" if h.get("llm_accuracy") is not None else ""),
+                     " / ".join(pct(x) for x in [h["baseline_accuracy"], h["lr_accuracy"], h.get("llm_accuracy")] if x is not None), n))
+        parts = [(k, h.get(f"{k}_escalation")) for k in ("lr", "llm", "combined")]
+        rows.append(("Hard test", "Escalation recall: " + " / ".join(k.upper() if k != "combined" else "combined" for k, v in parts if v),
+                     " / ".join(pct(v["recall"]) for k, v in parts if v), n))
     if not rows:
         print("No results yet. Run the eval scripts first.")
         return

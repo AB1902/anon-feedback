@@ -1,0 +1,41 @@
+id,difficulty,category,lr_category,lr_conf,lr_escalate_prob,llm_category,escalate,lr_escalate,llm_escalate,combined_escalate,text
+hard-000,vague,compensation,other,0.21,0.04,compensation,False,False,False,False,Joined two years ago and I'm still taking home what new joiners are being offered now. Feels odd.
+hard-001,no_keywords,compensation,compensation,0.39,0.12,compensation,False,False,False,False,"The numbers on my slip haven't matched what was promised in my offer letter since April, and nobody explains why."
+hard-002,hinglish,compensation,compensation,0.76,0.04,compensation,False,False,False,False,"Q3 ka payout abhi tak nahi aaya, aur ab bol rahe hain ki target hi galat set hua tha."
+hard-003,sarcasm,compensation,growth,0.25,0.04,compensation,False,False,False,False,Love how an 'exceptional' rating came with a 2% hike. Truly motivating stuff.
+hard-004,no_keywords,workload,other,0.46,0.05,workload,False,False,False,False,I haven't had a proper lunch break in weeks. Every day ends after the building lights go off.
+hard-005,indirect,workload,other,0.31,0.03,workload,False,False,False,False,"Since two people left, nobody was replaced and their stuff just landed on the rest of us."
+hard-006,hinglish,workload,workload,0.3,0.03,workload,False,False,False,False,"Sunday ko bhi laptop kholna padta hai, raat ko 11 baje tak pings aate rehte hain."
+hard-007,mixed,workload,compensation,0.43,0.03,workload,False,False,False,False,"Honestly the pay is fine, it's just that I now do three people's jobs."
+hard-008,no_keywords,manager_behaviour,manager_behaviour,0.65,0.06,manager_behaviour,False,False,False,False,My lead presents my work as his own in every review and corrects me in front of clients.
+hard-009,no_keywords,manager_behaviour,manager_behaviour,0.29,0.02,,False,False,,,He only gives the good projects to the people who go on smoke breaks with him.
+hard-010,vague,manager_behaviour,manager_behaviour,0.86,0.03,manager_behaviour,False,False,False,False,Things have just been off with my reporting manager lately. I dread our one-on-ones.
+hard-011,hinglish,manager_behaviour,compensation,0.18,0.12,manager_behaviour,False,False,False,False,"Boss ne poori team ke saamne mujhe bewakoof bola, aur baad mein bola mazaak tha."
+hard-012,no_keywords,culture,culture,0.47,0.04,culture,False,False,False,False,Nobody says thanks around here. You ship something big and the next day it's like it never happened.
+hard-013,indirect,culture,culture,0.38,0.06,culture,False,False,False,False,The main office gets every town hall and celebration; those of us in the smaller office feel like an afterthought.
+hard-014,no_keywords,culture,other,0.36,0.05,culture,False,False,False,False,"Lunch tables are basically split by language, and new people end up eating alone."
+hard-015,sarcasm,culture,culture,0.23,0.09,culture,False,False,False,False,Great place to work if you enjoy WhatsApp groups you're not invited to.
+hard-016,vague,growth,compensation,0.26,0.02,manager_behaviour,False,False,False,False,Third cycle in a row I've been told 'next time'. I still don't know what next time requires.
+hard-017,mixed,growth,manager_behaviour,0.64,0.14,manager_behaviour,False,False,False,False,I applied for an open role in another team and my manager quietly blocked the move.
+hard-018,mixed,growth,compensation,0.31,0.03,growth,False,False,False,False,My training budget hasn't been used in two years because there's never any time for it.
+hard-019,hinglish,growth,growth,0.22,0.12,manager_behaviour,False,False,False,False,"Senior banne ke liye kya karna padega, yeh koi batata hi nahi."
+hard-020,no_keywords,harassment,other,0.72,0.02,harassment,True,False,True,True,He keeps standing too close at the coffee machine and 'jokingly' touches my shoulder. I've started taking the stairs to avoid him.
+hard-021,indirect,harassment,workload,0.28,0.26,harassment,True,False,True,True,My lead texts me late at night asking what I'm wearing and says it's just banter.
+hard-022,mixed,harassment,manager_behaviour,0.58,0.03,harassment,True,False,True,True,"Ever since I turned down his invitation for drinks, my reviews got worse and he talks about my 'attitude' in front of everyone."
+hard-023,hinglish,harassment,harassment,0.3,0.31,harassment,True,False,True,True,Woh senior har meeting ke baad mujhe akele milne bolta hai aur meri photos pe ajeeb comments karta hai.
+hard-024,no_keywords,safety,safety,0.61,0.43,safety,True,False,True,True,The back door near the loading bay is chained shut once the night shift starts.
+hard-025,indirect,safety,workload,0.6,0.15,safety,True,False,True,True,Late-night cab drivers keep changing; last week the driver switched off the GPS and took a different route home.
+hard-026,no_keywords,safety,other,0.58,0.03,safety,True,False,True,True,There's been a burning smell in the server room for two days and nobody has checked it.
+hard-027,hinglish,safety,safety,0.27,0.23,safety,True,False,True,True,"Forklift bina horn ke chal raha hai warehouse mein, kal ek banda bal bal bacha."
+hard-028,no_keywords,fraud,manager_behaviour,0.26,0.11,fraud,True,False,True,True,My lead asked me to put his family dinner on the client entertainment claim.
+hard-029,indirect,fraud,other,0.24,0.15,fraud,True,False,True,True,"We were told to mark tickets as resolved before customers confirm, so the monthly numbers look better."
+hard-030,indirect,fraud,other,0.26,0.04,fraud,True,False,True,True,"The same supplier wins every bid, and it happens to be the purchase head's brother-in-law."
+hard-031,hinglish,fraud,other,0.17,0.22,fraud,True,False,True,True,Attendance sheet mein aise logon ka naam bhi daal rahe hain jo office aate hi nahi.
+hard-032,no_keywords,hr_conduct,manager_behaviour,0.86,0.06,hr_conduct,True,False,True,True,"I told the people team about it in confidence, and within a day my manager knew every detail."
+hard-033,vague,hr_conduct,hr_conduct,0.19,0.14,hr_conduct,True,False,True,True,Raised a grievance with my HRBP in March. It was closed in April without a single reply.
+hard-034,indirect,hr_conduct,growth,0.41,0.1,hr_conduct,True,False,True,True,The HRBP advised me to 'think about my career' before filing anything against a director.
+hard-035,hinglish,hr_conduct,hr_conduct,0.29,0.45,hr_conduct,True,False,True,True,HR wale complaint lene se pehle hi bol dete hain ki corporate mein aisa hi hota hai.
+hard-036,no_keywords,other,manager_behaviour,0.31,0.02,other,False,False,False,False,Can we get a second microwave? The queue at 1 pm is twenty minutes long.
+hard-037,no_keywords,other,other,0.29,0.03,other,False,False,False,False,The VPN drops every hour and support keeps saying the problem is on my side.
+hard-038,no_keywords,other,other,0.33,0.11,other,False,False,False,False,Parking has been chaos since the new block opened; people keep blocking each other in.
+hard-039,suggestion,other,workload,0.23,0.05,other,False,False,False,False,Suggestion: a small quiet room for people who need to take personal calls during the day.
