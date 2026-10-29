@@ -238,7 +238,7 @@ def ask(question: str, df: pd.DataFrame) -> tuple[str, int, str]:
         return SUPPRESSED, len(g), scope
     from app.pipeline.retrieval import Doc, Index
     docs = [Doc(r.ticket_id, f"[{r.category}] {r.text}", {"department": r.department}) for r in g.itertuples()]
-    idx = Index(f"feedback_{hashlib.sha1(scope.encode()).hexdigest()[:8]}", docs) if len(docs) > 40 else None
+    idx = Index("feedback", docs, prefer="bm25") if len(docs) > 40 else None
     hits = idx.search(question, k=30) if idx else docs
     # Broad questions ("top concerns") match few keywords, so top up with the most recent notes in scope
     seen = {d.id for d in hits}

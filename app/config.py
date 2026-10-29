@@ -25,6 +25,8 @@ GEMINI_MODEL = _get("GEMINI_MODEL", "gemini-3.8-flash")
 GROQ_MODEL = _get("GROQ_MODEL", "openai/gpt-oss-120b")
 
 LLM_MOCK = _get("LLM_MOCK", "0") == "1"
+# Policy retrieval: "auto" tries ChromaDB embeddings and falls back to BM25; "bm25" skips ChromaDB
+RETRIEVAL_BACKEND = _get("RETRIEVAL_BACKEND", "auto").lower()
 K_ANONYMITY_MIN = int(_get("K_ANONYMITY_MIN", "5"))
 MAX_FEEDBACK_CHARS = int(_get("MAX_FEEDBACK_CHARS", "3000"))
 

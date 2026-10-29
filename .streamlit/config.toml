@@ -4,3 +4,9 @@ base = "light"
 
 [server]
 headless = true
+# Don't watch/scan installed packages (avoids slow reloads and the long torchvision log)
+fileWatcherType = "none"
+runOnSave = false
+
+[logger]
+level = "error"

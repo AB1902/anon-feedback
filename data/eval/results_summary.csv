@@ -1,0 +1,12 @@
+Component,Metric,Result,Evaluated on
+Triage,Category accuracy,96.7%,90 held-out notes
+Triage,Category macro-F1,0.968,90 held-out notes
+Triage,Severity within ±1,87.8%,90 held-out notes
+Routing,Escalation recall (POSH/Ethics/Panel),97.2%,90 held-out notes
+Routing,Routing accuracy,97.8%,90 held-out notes
+Classifier (LR),Category accuracy / macro-F1,98.0% / 0.981,200 held-out notes
+Classifier (LR),Majority-class baseline accuracy / macro-F1,16.0% / 0.028,200 held-out notes
+Classifier (LR),Escalation recall / precision at threshold 0.48,93.8% / 100.0%,200 held-out notes
+Classifier (LR),Escalation ROC-AUC,1.000,200 held-out notes
+LLM vs LR,Category accuracy: LLM / LR,96.7% / 96.7%,90 test notes
+LLM vs LR,Escalation recall: LLM / LR / combined,97.2% / 94.4% / 100.0%,90 test notes

@@ -1,0 +1,141 @@
+{
+  "category": {
+    "best_C": 30,
+    "cv_macro_f1": 0.9783,
+    "test_accuracy": 0.98,
+    "test_macro_f1": 0.9807,
+    "baseline_accuracy": 0.16,
+    "baseline_macro_f1": 0.0276
+  },
+  "escalation": {
+    "best_C": 30,
+    "target_recall": 0.95,
+    "threshold": 0.48,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "at_chosen_threshold": {
+      "threshold": 0.48,
+      "precision": 1.0,
+      "recall": 0.9375,
+      "f1": 0.9677,
+      "missed_committee_cases": 3,
+      "false_alarms": 0,
+      "tp": 45,
+      "tn": 152
+    },
+    "at_default_0_5": {
+      "threshold": 0.5,
+      "precision": 1.0,
+      "recall": 0.9375,
+      "f1": 0.9677,
+      "missed_committee_cases": 3,
+      "false_alarms": 0,
+      "tp": 45,
+      "tn": 152
+    },
+    "baseline_never_escalate": {
+      "threshold": 1.01,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "missed_committee_cases": 48,
+      "false_alarms": 0,
+      "tp": 0,
+      "tn": 152
+    },
+    "test_positives": 48,
+    "test_total": 200
+  },
+  "llm_comparison": {
+    "notes": 90,
+    "llm_accuracy": 0.9667,
+    "llm_macro_f1": 0.968,
+    "lr_accuracy": 0.9667,
+    "lr_macro_f1": 0.9646,
+    "llm_escalation_recall": 0.9722,
+    "lr_escalation_recall": 0.9444,
+    "combined_escalation_recall": 1.0
+  },
+  "top_words": {
+    "compensation": [
+      "salary",
+      "compensation",
+      "bonus",
+      "payroll",
+      "increment",
+      "incentive"
+    ],
+    "culture": [
+      "culture",
+      "recognition",
+      "morale",
+      "cliques",
+      "communication",
+      "team"
+    ],
+    "fraud": [
+      "expense",
+      "invoices",
+      "fraud",
+      "vendor",
+      "reports",
+      "fake"
+    ],
+    "growth": [
+      "promotion",
+      "career",
+      "growth",
+      "path",
+      "clear",
+      "opportunities"
+    ],
+    "harassment": [
+      "comments",
+      "remarks",
+      "messages",
+      "personal",
+      "uncomfortable",
+      "unwelcome"
+    ],
+    "hr_conduct": [
+      "hr",
+      "the hr",
+      "confidentiality",
+      "hr team",
+      "complaints",
+      "ignored"
+    ],
+    "manager_behaviour": [
+      "manager",
+      "micromanagement",
+      "my manager",
+      "feedback",
+      "he",
+      "his"
+    ],
+    "other": [
+      "cafeteria",
+      "floor",
+      "the cafeteria",
+      "office",
+      "coffee",
+      "machine"
+    ],
+    "safety": [
+      "safety",
+      "exit",
+      "fire",
+      "blocked",
+      "near",
+      "lab"
+    ],
+    "workload": [
+      "workload",
+      "calls",
+      "night",
+      "late night",
+      "late",
+      "weekend"
+    ]
+  }
+}

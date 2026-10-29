@@ -37,6 +37,8 @@ def _warm_up():
     from app.pipeline.privacy import scrub
     from app.pipeline.retrieval import handbook_index
     scrub("Warm-up text for Rahul in Pune.")
+    from app.pipeline.classifier import load as load_classifier
+    load_classifier()
     return handbook_index().backend
 
 
@@ -290,6 +292,11 @@ def case_view(tid: str, route_key: str, df: pd.DataFrame):
         c.metric("Sentiment", s["sentiment"].title())
         st.caption(f"Week {s['week']} · {s['department']}{' · ' + s['team'] if s['team'] else ''} · "
                    f"routing: {s['route_reason']}")
+        if s.get("ml_category"):
+            agree = "agrees with the AI label" if s["ml_category"] == s["category"] else "**differs from the AI label**, please check"
+            st.caption(f"🤖 Trained model (logistic regression): {CATEGORY_LABELS[s['ml_category']]} "
+                       f"({s['ml_confidence']:.0%} confidence), {agree}. "
+                       f"Probability this needs a committee: {s['ml_escalate_prob']:.2f}")
 
         st.markdown("#### Policy explanation")
         if not s.get("explanation"):
@@ -483,6 +490,18 @@ def admin_view():
     c.metric("Blocked submissions", int(blocked["n"].sum()) if not blocked.empty else 0)
     from app.pipeline.retrieval import handbook_index
     d.metric("Retrieval backend", handbook_index().backend)
+    from app.pipeline.classifier import model_card
+    mc = model_card()
+    st.markdown("**Trained classifier** (TF-IDF + logistic regression)")
+    if mc["available"]:
+        a1, a2, a3, a4 = st.columns(4)
+        a1.metric("Category accuracy (test)", f"{mc['test_accuracy']:.1%}" if mc.get("test_accuracy") else "n/a")
+        a2.metric("Macro-F1 (test)", f"{mc['test_macro_f1']:.3f}" if mc.get("test_macro_f1") else "n/a")
+        a3.metric("Escalation threshold", f"{mc['threshold']:.2f}")
+        a4.metric("Escalation recall (test)", f"{mc['escalation_recall']:.0%}" if mc.get("escalation_recall") else "n/a")
+        st.caption(f"Trained on {mc['trained_on']} notes ({mc['trained_at']}). Retrain: python -m scripts.train_classifier")
+    else:
+        st.caption("Not trained yet. Run: python -m scripts.train_classifier")
     st.markdown("**Blocked by guardrails** (only the reason is stored, never the text)")
     st.dataframe(blocked, hide_index=True, use_container_width=True)
     if not df.empty:

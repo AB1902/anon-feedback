@@ -1,0 +1,101 @@
+{
+  "notes": 90,
+  "category_accuracy": 0.9667,
+  "macro_f1": 0.968,
+  "sentiment_accuracy": 0.8111,
+  "severity_exact": 0.4111,
+  "severity_within_1": 0.8778,
+  "escalation_recall": 0.9722,
+  "escalation_precision": 0.9722,
+  "routing_accuracy": 0.9778,
+  "false_safety_flags": 0,
+  "per_category": [
+    {
+      "category": "compensation",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "culture",
+      "n": 10,
+      "precision": 0.833,
+      "recall": 1.0,
+      "f1": 0.909
+    },
+    {
+      "category": "fraud",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "growth",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "harassment",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 0.889,
+      "f1": 0.941
+    },
+    {
+      "category": "hr_conduct",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "manager_behaviour",
+      "n": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "other",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 0.889,
+      "f1": 0.941
+    },
+    {
+      "category": "safety",
+      "n": 9,
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1": 0.947
+    },
+    {
+      "category": "workload",
+      "n": 9,
+      "precision": 1.0,
+      "recall": 0.889,
+      "f1": 0.941
+    }
+  ],
+  "confusions": [
+    {
+      "gold": "other",
+      "pred": "safety",
+      "count": 1
+    },
+    {
+      "gold": "harassment",
+      "pred": "culture",
+      "count": 1
+    },
+    {
+      "gold": "workload",
+      "pred": "culture",
+      "count": 1
+    }
+  ]
+}

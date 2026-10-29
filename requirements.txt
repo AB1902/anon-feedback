@@ -20,5 +20,10 @@ en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_
 # If this fails to install on your machine, delete the line: the app falls back to BM25 search.
 chromadb>=0.5
 
+# Trained classifier (TF-IDF + logistic regression)
+scikit-learn>=1.4
+joblib>=1.3
+matplotlib>=3.8          # figures for the report
+
 # Testing
 pytest>=8.0

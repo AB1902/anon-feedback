@@ -48,6 +48,18 @@ def main() -> None:
         rows.append(("RAG", f"Retrieval hit rate, top 4, with category ({r['backend']})", pct(r["retrieval_hit_rate"]), f"{n} test notes"))
         if "grounded_rate" in r:
             rows.append(("RAG", "Explanations citing only retrieved clauses", pct(r["grounded_rate"]), f"{r['explanations']} explanations"))
+    c = load("classifier_results.json")
+    if c:
+        cat, esc = c["category"], c["escalation"]
+        rows += [("Classifier (LR)", "Category accuracy / macro-F1", f"{pct(cat['test_accuracy'])} / {cat['test_macro_f1']:.3f}", "200 held-out notes"),
+                 ("Classifier (LR)", "Majority-class baseline accuracy / macro-F1", f"{pct(cat['baseline_accuracy'])} / {cat['baseline_macro_f1']:.3f}", "200 held-out notes"),
+                 ("Classifier (LR)", f"Escalation recall / precision at threshold {esc['threshold']:.2f}",
+                  f"{pct(esc['at_chosen_threshold']['recall'])} / {pct(esc['at_chosen_threshold']['precision'])}", "200 held-out notes"),
+                 ("Classifier (LR)", "Escalation ROC-AUC", f"{esc['roc_auc']:.3f}", "200 held-out notes")]
+        if c.get("llm_comparison"):
+            l = c["llm_comparison"]
+            rows += [("LLM vs LR", "Category accuracy: LLM / LR", f"{pct(l['llm_accuracy'])} / {pct(l['lr_accuracy'])}", f"{l['notes']} test notes"),
+                     ("LLM vs LR", "Escalation recall: LLM / LR / combined", f"{pct(l['llm_escalation_recall'])} / {pct(l['lr_escalation_recall'])} / {pct(l['combined_escalation_recall'])}", f"{l['notes']} test notes")]
     if not rows:
         print("No results yet. Run the eval scripts first.")
         return

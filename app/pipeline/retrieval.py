@@ -13,7 +13,7 @@ from collections import Counter
 from dataclasses import dataclass
 from functools import lru_cache
 
-from app.config import CHROMA_DIR, DATA_DIR
+from app.config import CHROMA_DIR, DATA_DIR, RETRIEVAL_BACKEND
 
 HANDBOOK = DATA_DIR / "handbook" / "handbook.md"
 
@@ -99,12 +99,18 @@ def _collection(name: str):
         metadata={"hnsw:space": "cosine"})
 
 
+_CHROMA_FAILED = {"flag": False}   # after one failure (e.g. model download timeout) never retry in this run
+
+
 class Index:
     """Uses Chroma when it works, otherwise BM25. `backend` says which one is active."""
 
-    def __init__(self, name: str, docs: list[Doc]):
+    def __init__(self, name: str, docs: list[Doc], prefer: str | None = None):
         self.name, self.docs, self.backend = name, docs, "bm25"
         self._bm25 = BM25(docs)
+        want = prefer or RETRIEVAL_BACKEND
+        if want == "bm25" or _CHROMA_FAILED["flag"]:
+            return
         try:
             col = _collection(name)
             if col.count() != len(docs):
@@ -118,7 +124,8 @@ class Index:
             self._col = col
             self.backend = "chromadb"
         except Exception as e:
-            print(f"[retrieval] ChromaDB unavailable for '{name}', using BM25: {str(e)[:120]}")
+            _CHROMA_FAILED["flag"] = True
+            print(f"[retrieval] ChromaDB unavailable, using BM25 for this run: {str(e)[:120]}")
 
     def search(self, query: str, k: int = 3, where: dict | None = None) -> list[Doc]:
         if self.backend == "chromadb":

@@ -23,7 +23,8 @@ CREATE TABLE IF NOT EXISTS submissions (
     route TEXT, route_reason TEXT, urgent INTEGER DEFAULT 0,
     status TEXT NOT NULL DEFAULT 'submitted',
     explanation TEXT, suggested_action TEXT, citations TEXT, grounded INTEGER,
-    rating TEXT
+    rating TEXT,
+    ml_category TEXT, ml_confidence REAL, ml_escalate_prob REAL
 );
 CREATE TABLE IF NOT EXISTS messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -73,6 +74,10 @@ def conn():
 def init() -> None:
     with conn() as c:
         c.executescript(SCHEMA)
+        cols = {r[1] for r in c.execute("PRAGMA table_info(submissions)")}
+        for col, typ in (("ml_category", "TEXT"), ("ml_confidence", "REAL"), ("ml_escalate_prob", "REAL")):
+            if col not in cols:                       # upgrade databases created before the ML model
+                c.execute(f"ALTER TABLE submissions ADD COLUMN {col} {typ}")
 
 
 def new_ticket_id() -> str:
